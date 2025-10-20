@@ -7,7 +7,7 @@ on:
 
 jobs:
   node-ci:
-    uses: mo666-med/github-actions-node-ci/.github/workflows/node-ci-reusable.yml@v1
+    uses: cursorvers/cursor-macbookpro2019-workflows/.github/workflows/node-ci-reusable.yml@v1
     with:
       node-version: '20'
       working-directory: '.'
