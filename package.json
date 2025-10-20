@@ -1,0 +1,10 @@
+{
+  "name": "node-ci-sample",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "node ./scripts/lint-exists.js || echo 'no lint'",
+    "build": "node -e \"console.log('build ok')\""
+  }
+}
