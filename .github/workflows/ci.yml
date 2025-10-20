@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
   pull_request:
 
 jobs:
@@ -12,5 +12,8 @@ jobs:
       node-version: '20'
       working-directory: '.'
       run-lint: true
-      run-test: false
+      run-test: true
       run-build: true
+      sheets-enabled: false
+      sheets-spreadsheet-id: ''
+      sheets-worksheet: 'Sheet1'
