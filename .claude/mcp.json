@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "git": { "disabled": true },
+    "github": { "disabled": true },
+    "context7": { "disabled": true }
+  }
+}
